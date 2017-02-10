@@ -4,17 +4,17 @@
 * Constants: 
 	* Constants
 * Scoping
-
-Block-Scoped Variables
-Block-Scoped Functions
-Arrow Functions
-Expression Bodies
-Statement Bodies
-Lexical this
-Extended Parameter Handling
-Default Parameter Values
-Rest Parameter
-Spread Operator
+	* Block-Scoped Variables
+	* Block-Scoped Functions
+	* Let + Const
+* Arrow Functions
+	* Expression and Statement Bodies
+	* Lexical this
+	
+* Extended Parameter Handling
+    * Default Parameter Values
+    * Rest Parameter
+    * Spread Operator
 Template Literals
 String Interpolation
 Custom Interpolation
