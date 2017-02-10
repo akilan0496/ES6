@@ -4,14 +4,14 @@
  * Block-Scoped Variables
  ```javascript
  {
-  {
-    let x = 5;
-    {
-      let x = 6;
-      console.log(x); // prints 6
-    }
-    console.log(x); // prints 5
-  }
+   {
+     let x = 5;
+     {
+       let x = 6;
+       console.log(x); // prints 6
+     }
+     console.log(x); // prints 5
+   }
 }
 ```
 
@@ -19,14 +19,14 @@
 
  ```javascript
  {
-  {
-    function foo() {return 5};
-    {
-      function foo() {return 6};
-      console.log(foo() === 6); // true
-    }
-    console.log(foo() === 5); // true
-  }
+   {
+     function foo() {return 5};
+     {
+       function foo() {return 6};
+       console.log(foo() === 6); // true
+     }
+     console.log(foo() === 5); // true
+   }
 }
 ```
  * Let + Const
